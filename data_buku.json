@@ -1,0 +1,37 @@
+[
+    {
+        "kode_b": "B-001",
+        "judul_b": "Harry Potter",
+        "kategori_b": "Fiksi",
+        "penerbit_b": "Gramedia ",
+        "harga_b": "10000"
+    },
+    {
+        "kode_b": "B-002",
+        "judul_b": "Biologi",
+        "kategori_b": "Pendidikan",
+        "penerbit_b": "Intermedia",
+        "harga_b": "20000"
+    },
+    {
+        "kode_b": "B-003",
+        "judul_b": "Biografi",
+        "kategori_b": "Non-Fiksi",
+        "penerbit_b": "Erlangga",
+        "harga_b": "30000"
+    },
+    {
+        "kode_b": "B-004",
+        "judul_b": "Tangkuban Perahu",
+        "kategori_b": "Fiksi",
+        "penerbit_b": "Gramedia ",
+        "harga_b": "40000"
+    },
+    {
+        "kode_b": "B-005",
+        "judul_b": "Si Kancil",
+        "kategori_b": "Fiksi",
+        "penerbit_b": "Intermedia",
+        "harga_b": "50000"
+    }
+]

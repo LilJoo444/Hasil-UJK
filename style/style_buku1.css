@@ -1,0 +1,75 @@
+body {
+    background: linear-gradient(135deg, #f6f9fc, #e0e7ff);
+    min-height: 100vh;
+}
+
+.containers {
+    max-width: 1000px;
+    width: 100%;
+    margin: 30px auto;
+    padding: 28px 32px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    background: linear-gradient(135deg, #ffffff, #f0f4ff);
+    color: #2f3542;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #37474f;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.col-md-6 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-bottom: 15px;
+}
+
+.col-md-6:nth-child(2n) {
+    justify-content: end;
+}
+
+.col-md-6 label {
+    width: 95%;
+    color: #2f3542;
+    font-weight: 600;
+    margin: 5px 0;
+}
+
+.col-md-6 input,
+.col-md-6 select {
+    height: 42px;
+    width: 95%;
+    padding: 0 12px;
+    border-radius: 6px;
+    border: 1px solid #ced4da;
+    background-color: #fff;
+    color: #333;
+}
+
+.col-md-6 input:focus,
+.col-md-6 select:focus {
+    border-color: #0d63fd;
+    box-shadow: 0 0 0 0.2rem rgb(0, 115, 255);
+    outline: none;
+}
+
+.col-12 button {
+    height: 45px;
+    padding: 0 20px;
+    border-radius: 25px;
+    background-color: #ffb830;
+    border: none;
+    font-weight: 600;
+    color: #2f3542;
+    transition: background-color 0.3s ease;
+}
+
+.col-12 button:hover {
+    background-color: #faae2b;
+    color: #212529;
+}
